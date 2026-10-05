@@ -8,7 +8,6 @@ class InesPena():
   def __init__(self):
     self.name = "Inés Peña";
     self.location = "Madrid, Spain";
-    self.degree = "Computer Science";
     self.masters = "Software Engineering";
     self.linkedin = "[https://www.linkedin.com/in/ines-pena-pando](https://linkedin.com/in/ines-pena-pando)";
   
