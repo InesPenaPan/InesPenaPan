@@ -9,19 +9,21 @@
 ## &nbsp;About Me
 
 ```python
-class InesPena():
-    
-  def __init__(self):
-    self.name = "Inés Peña";
-    self.location = "Madrid, Spain";
-    self.masters = "Software Engineering";
-    self.linkedin = "[https://www.linkedin.com/in/ines-pena-pando](https://linkedin.com/in/ines-pena-pando)";
-  
-  def __str__(self):
-    return f"{self.name} - {self.role}"
+class InesPena:
 
-if __name__ == '__main__':
+    def __init__(self):
+        self.name = "Inés Peña"
+        self.location = "Madrid, Spain"
+        self.masters = "Software Engineering"
+        self.linkedin = "https://www.linkedin.com/in/ines-pena-pando"
+
+    def __str__(self):
+        return f"{self.name} | {self.masters} | {self.location}"
+
+
+if __name__ == "__main__":
     me = InesPena()
+    print(me)
 ```
 
 ## &nbsp;Tech Stack
