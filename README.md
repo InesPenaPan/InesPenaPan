@@ -16,7 +16,7 @@ class InesPena:
         self.last_name = "Peña"
         self.bachelor = "Computer Science"
         self.masters = "Software Engineering"
-        self.areas_of_interest = [ "Artificial Intelligence", "GenAI", "Cloud Computing","Software Architecture", "UI/UX Design" ]
+        self.areas_of_interest = [ "Artificial Intelligence", "Cloud Computing", "Software Architecture", "UI/UX Design" ]
 
     def __str__(self):
         interests = ", ".join(self.areas_of_interest)
