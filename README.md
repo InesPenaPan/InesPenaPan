@@ -12,13 +12,23 @@
 class InesPena:
 
     def __init__(self):
-        self.name = "Inés Peña"
-        self.location = "Madrid, Spain"
+        self.first_name = "Inés"
+        self.last_name = "Peña"
+        self.bachelor = "Computer Science"
         self.masters = "Software Engineering"
-        self.linkedin = "https://www.linkedin.com/in/ines-pena-pando"
+        self.areas_of_interest = [
+            "Artificial Intelligence",
+            "Cloud Computing",
+            "Software Architecture",
+            "UI/UX Design".
+        ]
 
     def __str__(self):
-        return f"{self.name} | {self.masters} | {self.location}"
+        interests = ", ".join(self.areas_of_interest)
+        return (
+            f"{self.first_name} {self.last_name} | {self.bachelor} | {self.masters}\n"
+            f"Interests: {interests}"
+        )
 
 
 if __name__ == "__main__":
